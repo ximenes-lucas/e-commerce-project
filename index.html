@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenishop</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon"> 
+    <script type="text/javascript">
+        window.onload = function (){
+            document.querySelector(".menu--openner-mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };    
+    </script>
+    <script type="text/javascript">
+        window.onload = function (){
+            document.querySelector(".menu--openner-tablet").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };    
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header--content">        
+          <div class="logo">
+            <div class="logoimg"><img src="./assets/images/favicon.ico"></div>
+          </div>
+
+          <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="">Homem</a></li>
+                    <li><a href="">Mulher</a></li>
+                    <li><a href="">Criança</a></li>
+                    <li><a href="">Customizar</a></li>
+                </ul>
+            </nav>
+          </div>
+          
+           <div class="header--seach-icon clean">
+                <div class="header--search">
+                    <div class="form--img"><img src="./assets/images/icon-search.svg" alt=""></div>
+                    <form method="get">
+                        <input type="search" placeholder="Pesquisar">
+                    </form>  
+                </div>
+
+                <div class="header-store-img">
+                    <div class="store-img"><img src="./assets/images/icon-bag.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+      
+      <section class="container">
+        <div class="product">
+            <br><br><br><br><br><br><br><br><br>
+            <div class="product--info">
+                <div class="product--title-content">Tênis <br> Esportivo <br> Para corrida <br> Top</div>
+                <div class="product-subtitle-content">Esse tênis tem o intuito de te deixar ainda mais fitness, focado, e musculoso.</div>
+                <div class="product--price">R$ 1.000,00</div>
+                <div class="product--buy">
+                    <div class="buy--buttom">Comprar</div> 
+                </div>
+
+            </div>
+        </div>
+
+        <div class="product--demo">
+            <div class="header--content">       
+                <div class="header--seach-icon">
+                    <div class="header--search">
+                        <div class="form--img"><img src="./assets/images/icon-search.svg" alt=""></div>
+                        <form method="get">
+                            <input type="search" placeholder="Pesquisar">
+                        </form>  
+                    </div>
+                    <div class="menu--openner-tablet">
+                        <div class="menu--line"></div>
+                        <div class="menu--line"></div>
+                        <div class="menu--line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product--photos">
+                <div class="product--img-demo">
+                    <br><br><br><br><br><br><br><br><br>
+                    <img src="./assets/images/tenis-1-ampliado.png" alt="">
+                </div>
+
+                <div class="product--images">
+                    <div class="product--img"><img src="./assets/images/tenis-1-galeria.png" alt=""></div>
+                    <div class="product--img active"><img src="./assets/images/tenis-2-galeria.png" alt=""></div>
+                    <div class="product--img"><img src="./assets/images/tenis-3-galeria.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="product--video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ODadUkT9dHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    
+        <div class="social-network1">
+            <a href="https://www.facebook.com/lucas.ximenesgarcia.9" target="_blank"><div class="facebook">Facebook</div></a>
+        </div>
+
+        <div class="social-network2">
+            <a href="https://www.instagram.com/ximenes.lucas_/" target="_blank" rel="noopener noreferrer"><div class="facebook">Instagram</div></a> 
+        </div>
+
+        <div class="social-network3">
+            <a href="https://www.youtube.com/channel/UCBzv0IdNoFdUlBJDTVT5YoA" target="_blank" rel="noopener noreferrer"><div class="facebook">Youtube</div></a> 
+        </div>
+
+        <div class="social-network4">
+            <a href="https://steamcommunity.com/profiles/76561199160441239/" target="_blank" rel="noopener noreferrer"><div class="facebook">Steam</div></a> 
+        </div>
+
+        <div class="more--infos">
+            <a href="https://ximenes-lucas.github.io/social-links/" target="_blank" rel="noopener noreferrer">
+               <div class="more-info--text">Explore Mais</div>
+               <div class="more-info--img"><img src="./assets/images/icon-arrow.svg" alt=""></div>  
+            </a>
+           
+        </div>
+      </footer>
+    
+</body>
+</html>
